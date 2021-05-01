@@ -1,5 +1,12 @@
-import React from "react"
+import React, { Component } from "react"
+import "../styles/global.css"
+import CubePacks from "../components/cubePacks"
+import Layout from "../components/Layout"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <Layout>
+      <CubePacks class="cube" />
+    </Layout>
+  )
 }
